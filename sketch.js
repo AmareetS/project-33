@@ -80,7 +80,7 @@ function draw() {
     divisions[k].display();
   }
 
-  if (particles !== undefined) {
+  if (particles != null) {
 
     if (particles.body.position.x > 0 && particles.body.position.y < width) {
       if (particles.body.position.y > 550) {
